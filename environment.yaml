@@ -7,13 +7,14 @@ dependencies:
   - git
   - python=3.8.5
   - pip=20.3
-  - cudatoolkit=11.3
-  - pytorch=1.11.0
-  - torchvision=0.12.0
+  - cudatoolkit=11.6
+  - pytorch=1.12
+  - torchvision=0.13
   - numpy=1.20
   - albumentations=0.4
   - imageio=2.21
-  - omegaconf==2.2
+  - omegaconf=2.2
+  - python-slugify=6.1
   - pip:
     - opencv-python==4.1.2.30
     - pudb==2019.2
@@ -31,7 +32,6 @@ dependencies:
     - pynvml==11.4.1
     - basicsr>=1.3.4.0
     - facexlib>=0.2.3
-    - python-slugify>=6.1.2
     - -e git+https://github.com/CompVis/taming-transformers#egg=taming-transformers
     - -e git+https://github.com/openai/CLIP#egg=clip
     - -e git+https://github.com/TencentARC/GFPGAN#egg=GFPGAN
